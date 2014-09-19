@@ -553,8 +553,8 @@ section.cont_menu_ejecutivo p{
 
 .ingredientes_col {
 	float: left;
-	width: 155px;
-	margin-left: 7%;
+	width: 220px;
+	margin-left: 2%;
 	zoom:0.7;
 }
 
@@ -562,12 +562,14 @@ section.cont_menu_ejecutivo p{
 	float: left;
 	font-family: "Signika", Arial;
 	width: 100%;
-	font-size: 26px;
+	font-size: 27px;
 	font-weight: 300;
 	color: #f49718;
 	text-align: center;
 	padding-top: 10px;
 	text-transform: uppercase;
+	height: 80px;
+	margin-bottom: 20px;
 }
 
 .ingredientes_col h3 {
@@ -588,12 +590,23 @@ section.cont_menu_ejecutivo p{
 	font-size: 20px;
 	font-weight: 300;
 	color: #aeaeae;
-	line-height: 42px;
+	line-height: 24px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .icon_ingredientes {
 	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.ingredientes_info {
+    float: left;
+}
+.ingredientes_info p {
+    font-family: "Signika", Arial; width: 100%; 
+    font-size: 12px; font-weight: 300; color: #aeaeae;   
 }
 
 .datos_contact_sup_arma {
